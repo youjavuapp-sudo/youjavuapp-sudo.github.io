@@ -11,38 +11,51 @@
 <main>
   <nav><a href="index.html">YouJavu</a><a href="terms.html">Terms and conditions</a></nav>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 12 September 2026</p>
-  <p>YouJavu is a calendar that walks backwards through your life and shows your own photos, videos and notes from each day. It is built around one promise: <strong>nothing leaves your phone</strong>.</p>
+  <p class="updated">Last updated: 12 October 2026</p>
+  <p>YouJavu is a calendar that walks backwards through your life and shows your own photos, videos and notes from each day. Your photos and memories stay on your phone; YouJavu does not upload them. If you turn on the detailed online map, YouJavu downloads map tiles for the area you view, and the tile service receives your IP address and the requested map area. A Memory Card leaves your phone only when you choose to share it. Both are described below.</p>
 
   <h2>What the app reads on your phone</h2>
   <ul>
-    <li><strong>Photos and videos.</strong> With your permission, YouJavu reads the date each photo or video was taken so it can show the ones from the day you are travelling to. You can give access to all photos, selected photos only, or none. Showing your own photos from a chosen day is the core purpose of the app.</li>
+    <li><strong>Photos and videos (optional).</strong> With your permission, YouJavu reads the date each photo or video was taken so it can show the ones from the day you are travelling to. You can give access to all photos, selected photos only (on supported Android versions), or none. Without photo access, YouJavu works with your notes only.</li>
+    <li><strong>Photo locations (optional, for Places).</strong> When you open Places, YouJavu asks for permission to read the location your camera saved inside photos and videos, where available (on supported Android versions, Android asks for this separately). It uses these locations to show your photos as places on the map. They are read and stored on your phone, and YouJavu does not upload them. Without this permission, Places stays empty and the rest of YouJavu works as usual.</li>
+    <li><strong>Your current location (Locate me, optional).</strong> If YouJavu does not have location permission yet, Android asks when you tap Locate me; on supported Android versions you can allow approximate or precise location, or refuse. YouJavu asks your phone for your position only when you tap Locate me, to show it on the map, keeps it only while the map is open, and never uses location in the background. It does not upload the position itself. If the detailed online map is on, the map tiles for the area shown around you are downloaded like any other area, so the requested tiles can reveal which area you are viewing.</li>
     <li><strong>Calendar (optional, off by default).</strong> If you turn it on, YouJavu reads event titles from your phone's calendar for the day you are travelling to.</li>
-    <li><strong>Notifications.</strong> If you allow them, YouJavu sends one daily reminder, a heads-up before special days, and a message when a sealed note opens.</li>
+    <li><strong>Notifications (optional).</strong> If you allow them, YouJavu sends a daily reminder if you switch it on, a heads-up the day before your journey reaches a special day, and a message when a sealed note opens.</li>
   </ul>
 
-  <h2>What the app stores</h2>
-  <p>Your start date, notes, good days, hidden days, special days, sealed notes, your chosen name and your settings are stored only on your phone. A copy of any photo you seal is saved in the app's private folder so the seal still opens if the original is deleted from your gallery.</p>
+  <h2>The detailed online map (optional)</h2>
+  <p>The map works without internet. The first time you open it, YouJavu asks whether to use the detailed online map; you can change your answer at any time in Settings → Map. If you turn it on, YouJavu downloads map tiles (public map pictures) for the area you view from tiles.youjavu.com. Each request names the map area and zoom level. Like every internet request it also carries your device's IP address, plus the app's name and version, the Android version and the phone's processor type (MapLibre's standard request label). The requested tiles can reveal the area you are viewing, including an area reached through Locate me or by opening a place from your photos. No photos, memories, dates, notes, feelings, hidden days or names are sent, and YouJavu adds no persistent account or device identifier to these requests.</p>
+  <p>The optional detailed map uses Cloudflare to deliver map tiles. Cloudflare processes request information, including your IP address and the requested map area, and retains sampled request records for security and analytics. Its Security Analytics service provides request history for up to 31 days on our current plan; other processing follows Cloudflare's privacy policy (<a href="https://www.cloudflare.com/privacypolicy/">https://www.cloudflare.com/privacypolicy/</a>) and terms (<a href="https://www.cloudflare.com/terms/">https://www.cloudflare.com/terms/</a>). Logging in our map-serving application is disabled. We do not use map requests to identify or track you.</p>
+  <p>Tiles you have already viewed are kept in the app's private storage and may remain available offline. Map data © OpenStreetMap contributors.</p>
+
+  <h2>What the app stores on your phone</h2>
+  <p>Your start date, notes, how days felt, hidden days, special days, sealed notes, your chosen name, your settings and the places found in your photos are stored only on your phone. A copy of any photo you seal is saved in the app's private folder so the seal still opens if the original is deleted. A photo you take for Then &amp; Now is saved in the app's private folder, not in your gallery. Memory collections store only the collection name and a reference to each photo or video you chose; nothing is copied, analysed or grouped automatically.</p>
+
+  <h2>No backup</h2>
+  <p>YouJavu does not offer a backup or export of its own data. Please don't rely on your phone's backup or phone-to-phone transfer tools to keep it. If you uninstall YouJavu, clear its storage, or your phone is lost, reset or replaced, your YouJavu notes, feelings, hidden and special days and sealed notes may not be recoverable. YouJavu does not alter your original gallery photos and videos. Photos stored only inside YouJavu, including Then &amp; Now photos and sealed-note copies, can be lost with the app's data.</p>
 
   <h2>What the app does not do</h2>
   <ul>
-    <li>No internet connection is used. The app does not request network access.</li>
-    <li>No account, no login, no analytics, no advertising, no tracking.</li>
-    <li>Nothing is uploaded, shared or sold. We never see your data.</li>
-    <li>Cloud backup of app data is switched off.</li>
+    <li>YouJavu only goes online for the detailed map, and only to download map tiles from tiles.youjavu.com. If you keep the map offline, YouJavu uses no internet connection.</li>
+    <li>YouJavu has no account, login or advertising, and contains no analytics SDK. We do not use map requests to identify or track you. Cloudflare's processing is described above.</li>
+    <li>YouJavu never uploads your photos, memories or notes, and never sells your data. Only when you explicitly choose to share a Memory Card is that one image passed to the app or destination you select.</li>
   </ul>
 
-  <h2>Data safety summary</h2>
-  <p>YouJavu does not collect or share any user data. All processing happens on your device.</p>
-
   <h2>Deleting your data</h2>
-  <p>Uninstalling YouJavu removes everything it stored. "Reset journey" in Settings clears the journey. Deleting a sealed note removes its private photo copy. Because no data is sent to us, there is nothing for us to delete on your behalf.</p>
+  <p>Uninstalling YouJavu removes its app-private data, including saved map tiles and Then &amp; Now photos. Memory Cards you saved to your phone's gallery stay there until you delete them.</p>
+  <p>Inside the app:</p>
+  <ul>
+    <li>Reset journey (Settings) lets you choose a new starting point. It clears the journey's start date and position and the remembered map view in Places, but keeps your notes, feelings, hidden and special days, sealed notes, collections and Then &amp; Now photos.</li>
+    <li>Deleting a sealed note removes its private photo copy.</li>
+    <li>Deleting a Then &amp; Now comparison removes the photo you took for it.</li>
+  </ul>
+  <p>Request records kept by Cloudflare for the detailed map are not stored in the app, so uninstalling does not affect them; they are handled as described under "The detailed online map".</p>
 
   <h2>Children</h2>
-  <p>YouJavu is not directed at children under 13 and collects no personal data from anyone.</p>
+  <p>YouJavu is not directed at children under 13.</p>
 
   <h2>Changes</h2>
-  <p>If this policy changes, the new version will be published on this page and with the app update.</p>
+  <p>If this policy changes, the new version will be published with the app update and on <a href="https://youjavuapp-sudo.github.io/privacy.html">https://youjavuapp-sudo.github.io/privacy.html</a>.</p>
 
   <h2>Contact</h2>
   <p>Questions about privacy: <a href="mailto:support@youjavu.app">support@youjavu.app</a></p>
